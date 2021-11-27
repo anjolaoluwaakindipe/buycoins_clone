@@ -1,0 +1,21 @@
+.Button__button {
+    background-color: #b38cfc;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 4px 20px rgb(179 140 252 / 20%);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: inherit;
+    word-wrap: break-word;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button__button:hover {
+    background-color: #ac82fc;
+    box-shadow: 2px 5px 20px rgb(179 140 252 / 40%);
+}

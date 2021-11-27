@@ -1,0 +1,88 @@
+.Nav__container {
+    background-color: #fafbfd;
+    font-size: inherit;
+    position: fixed;
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    z-index: 50;
+}
+
+.Nav__innercontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav__end {
+    display: flex;
+    align-items: center;
+}
+
+.Nav__list {
+    padding: 0 10px;
+    transition: color 0.2s linear;
+    color: #04000c;
+}
+
+.Nav__list:hover {
+    color: #b38cfc;
+}
+
+.Nav__logo {
+    height: 46.39px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav__navigation {
+    display: none;
+}
+
+.Nav__button {
+    display: none;
+}
+
+.Nav__burger {
+    display: inline;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    /* Insert CSS */
+    .Nav__innercontainer {
+        max-width: 940px;
+    }
+
+    .Nav__burger {
+        display: none;
+    }
+
+    .Nav__navigation {
+        list-style: none;
+        flex-direction: row;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    .Nav__button {
+        display: flex;
+        margin-left: 5px;
+    }
+}

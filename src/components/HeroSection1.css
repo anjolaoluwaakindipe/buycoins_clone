@@ -1,0 +1,65 @@
+.HeroSection1__container {
+    margin: 0px auto;
+    width: 90%;
+}
+
+.HeroSection1__innercontainer {
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.HeroSection1__header {
+    width: 100%;
+    max-width: 10ch;
+    padding-top: 50px;
+    perspective: 3000px;
+    margin: 0px auto;
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 0.95;
+    color: #04000c;
+}
+
+.HeroSection1__description {
+    max-width: 80%;
+    margin: 0px auto;
+    margin-top: 14px;
+    margin-bottom: 22px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.HeroSection1__outerbutton {
+    display: inline-block;
+}
+
+.HeroSection1__innerbutton {
+    padding: 18px 40px;
+    z-index: 2;
+}
+
+.HeroSection1__buttonlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+span {
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    .HeroSection1__container {
+        max-width: 940px;
+    }
+    .HeroSection1__header {
+        font-size: 4rem;
+    }
+}

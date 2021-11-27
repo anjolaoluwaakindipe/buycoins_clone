@@ -1,0 +1,54 @@
+.HeroImages__container {
+    min-height: 200px;
+    position: relative;
+    text-align: center;
+    z-index: -1;
+}
+
+.HeroImages__phones {
+    bottom: -65px;
+    display: flex;
+    left: 50%;
+    max-height: 45%;
+    max-width: 550px;
+    position: absolute;
+    transform: translateX(-50%) translateZ(10px);
+    width: 60%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    perspective: 600px;
+}
+
+.HeroImages__phoneright {
+    height: auto;
+    width: 100%;
+    filter: drop-shadow(-12.5193px 12.5193px 37.5579px rgba(74, 77, 86, 0.2));
+    margin-left: 20%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    transform: rotateX(-1deg) rotateY(0deg) rotate(7.5deg);
+}
+
+.HeroImages__phoneleft {
+    height: auto;
+    width: 100%;
+    left: -15%;
+    max-height: 75%;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    transform: rotateY(-1.5deg) rotate(-15deg);
+    z-index: -1;
+}
+
+@media only screen and (min-width: 768px) {
+    .HeroImages__phoneleft {
+        left: -28%;
+    }
+
+    .HeroImages__container {
+        margin-top: -80px;
+        min-height: 150px;
+    }
+}

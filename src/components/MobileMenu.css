@@ -1,0 +1,60 @@
+.MobileMenu__container {
+    background-color: rgba(242, 240, 247, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 51;
+}
+
+.MobileMenu__innercontainer {
+    background-color: #fafbfd;
+}
+
+.MobileMenu__top {
+    border-bottom: 2px solid rgba(179, 140, 252, 0.05);
+    padding: 13px 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.MobileMenu__logo {
+    width: 100px;
+    height: 25px;
+    color: rgba(242, 240, 247, 1);
+}
+
+.MobileMenu__close {
+    color: #9b999e;
+    cursor: pointer;
+}
+
+.MobileMenu__close:hover {
+    color: #04000c;
+}
+
+.MobileMenu__middle {
+    padding: 22px 11px;
+    color: #04000c;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.MobileMenu__listitem {
+    padding: 12px 0px;
+}
+
+.MobileMenu__buttonlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.MobileMenu__button {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
