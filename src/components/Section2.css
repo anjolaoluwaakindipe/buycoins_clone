@@ -1,0 +1,84 @@
+.Section2__container {
+    background-color: #fafafa;
+    padding: 60px 0px;
+    position: relative;
+}
+
+.Section2__innercontainer {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 40px 0px;
+}
+
+.Section2__textcontainer {
+    flex: 1;
+}
+
+.Section2__header {
+    margin: 60px 0 0 0;
+}
+
+.Section2__headertitle {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.Section2__buttonwrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.Section2__playstore {
+    margin-right: 20px;
+}
+
+.Section2__playstore,
+.Section2__applestore {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    transform-origin: left;
+    background-color: #04000c;
+    border: 2px solid rgba(179, 140, 252, 0.1);
+    color: #fff;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+
+.Section2__playstore:hover,
+.Section2__applestore:hover {
+    outline: none;
+    transform: scale(1.05);
+}
+
+.Section2__playstorelogo,
+.Section2__applestorelogo {
+    width: 40px;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.Section2__imagecontainer {
+    flex: 1;
+    margin: auto auto auto 60px;
+}
+
+.Section2_girlsittingimage {
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .Section2__innercontainer {
+        max-width: 940px;
+        flex-direction: row;
+        margin: 40px auto;
+    }
+}

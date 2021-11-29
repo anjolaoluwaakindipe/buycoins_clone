@@ -1,0 +1,32 @@
+.Section2List__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.Section2List__svg {
+    margin-right: 40px;
+}
+
+.Section2List__title {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.Section2List__description {
+    margin-top: 2px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.Section2List__svg {
+    background-color: #fff;
+    border-radius: 100px;
+    box-shadow: 2px 4px 15px rgb(177 174 196 / 20%);
+    height: 100%;
+    max-height: 70px;
+    max-width: 70px;
+    width: 100%;
+}
